@@ -63,8 +63,7 @@ body {
 }
 
 .chart__item:hover {
-	background-color: #fff;
-	opacity: .5;
+	background-color: rgba(204, 204, 204, 0.3);
 }
 
 .chart__link,
