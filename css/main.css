@@ -63,7 +63,8 @@ body {
 }
 
 .chart__item:hover {
-	background-color: #FFF;
+	background-color: #fff;
+	opacity: .5;
 }
 
 .chart__link,
@@ -81,6 +82,10 @@ body {
   width: 100%;
 
   text-align: center;
+  transition: color 2000ms linear;
+}
+.chart__label:hover {
+	color: #9FF;
 }
 
 .chart__bar-wrap {
